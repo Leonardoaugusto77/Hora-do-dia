@@ -1,2 +1,2 @@
-# Hora do dio
+# Hora do dia
 exercicios de js para iniciantes
