@@ -1,8 +1,8 @@
 function carregar(){ 
-var msg = document.getElementById('msg')
+var msg = document.getElementById('msg') 
 var img = document.getElementById('imagem')
-var data = new Date()
-var hora = data.getHours()
+var data = new Date() //Cria uma instância JavaScript de Date que representa um único momento no tempo.
+var hora = data.getHours() // retorna a hora para a data especificada, de acordo com a hora local.
 
 msg.innerHTML =`Agora são ${hora} horas`
 if(hora>=0 && hora < 12){
